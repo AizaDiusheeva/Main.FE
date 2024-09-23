@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 9</title>
+    <link rel="stylesheet" href="stylebook.css">
+</head>
+<body>
+<form >
+    <label for="booktName">Название книги</label>
+    <input type="text" id="bookName" name="bookName" required>
+    <br />
+    <label for="author">Автор книги</label>
+    <input type= "text" name="author" id="author" required>
+    <br>
+    <label for="bookYear">Год издания</label>
+    <input type= "number" name="bookYaer" id="bookYear" required>
+    <label for="bookPage">Количество страниц</label>
+    <input type= "number" name="bookPage" id="bookPage" required>
+    <button>Отправить</button>
+</form>
+<div>
+    <h3>Search</h3>
+    <input type="text" id="searchInput">
+</div>
+<div>
+
+    <h3>Sort</h3>
+    <select id="sortSelect">
+        <option value="">Выберите сортировку</option>
+        <option value="bookName">По названию книги</option>
+        <option value="Author">По автору</option>
+        <option value="year">Год издания</option>
+        <option value="countPage">Количество страниц</option>
+    </select>
+</div>
+<button id="clearBooks">Очистить книги</button>
+
+<ul id="booksList"></ul>
+
+    <script src="script9HW.js"></script>
+</body>
+</html>
