@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<style>
+       body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #game {
+            text-align: center;
+            max-width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #message {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+</style>
+<body>
+   
+    <div class="game">
+         <button>Start again</button>
+        <h1>Угадай число</h1>
+        <p>Я загадал число от 1 до 100. У вас есть 3 попытки, чтобы угадать его.</p>
+        <input type="number" id="user-input" placeholder="Введите число" min="1" max="100">
+        <button onclick="guessNumber()">Угадать</button>
+        <div id="message"></div>
+
+    </div>
+<script src="gamescript.js"></script>
+</body>
+</html>
