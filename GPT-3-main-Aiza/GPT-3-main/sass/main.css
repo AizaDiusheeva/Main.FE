@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #040C18;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1176px;
+  width: 100%;
+}
+
+.gradient {
+  font-size: 40px;
+  background: linear-gradient(90deg, #AE67FA, rgba(255, 68, 153, 0.5333333333));
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+@media (max-width: 900px) {
+  .nav {
+    padding: 20px 10px;
+  }
+}
+.nav .menu {
+  display: flex;
+  gap: 34px;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .nav .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    background-color: #042C54;
+    padding: 25px;
+  }
+}
+.nav .buttons {
+  display: flex;
+  gap: 26px;
+}
+.nav .buttons .buttons-sign-in {
+  font-size: 18px;
+}
+.nav .buttons .buttons-sign-up {
+  background-color: #FF4820;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  padding: 16px 40px;
+}
+.nav .hamburger-menu {
+  display: none;
+}
+@media (max-width: 900px) {
+  .nav .hamburger-menu {
+    display: block;
+  }
+}
+.nav .hamburger-menu img {
+  width: 40px;
+}
+
+
+.show {
+  display: flex !important;
+}/*# sourceMappingURL=main.css.map */
