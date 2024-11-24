@@ -1,0 +1,63 @@
+a{
+    color: $primary-text-color;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    @include big-screen {
+        padding: 20px 10px;
+    }
+
+    .menu{
+        display: flex;
+        gap: 34px;
+        font-size: 18px;
+        @include big-screen {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 90px;
+            left: 20px;
+            background-color: #042C54;
+            padding: 25px;
+        }
+        }
+    
+    .buttons{
+        display: flex;
+        gap: 26px;
+        .buttons-sign-in{
+            font-size: 18px;
+        }
+        .buttons-sign-up{
+            background-color: $btn-color;
+            border: none;
+            border-radius: 5px;
+            color: $primary-text-color;
+            font-size: 18px;
+            padding: 16px 40px;
+
+        }
+    }
+    .hamburger-menu{
+        display: none;
+        @include big-screen{
+            display: block;
+        }
+        img{
+            width: 40px;
+            
+
+        }
+    }
+
+}
+
+
+.show {
+    display: block !important;
+}

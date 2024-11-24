@@ -1,0 +1,41 @@
+.End{
+    width: 1000px;
+    height: 80px;
+    position: absolute;
+    top: 2900px;
+    left: 90px;
+    gap: 0px;
+    border-radius: 10.72px 0px 0px 0px;
+    opacity: 0px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    text-align: center;
+
+    
+}
+.rounded-button {
+    background-color: black; /* Цвет фона */
+    color: rgb(15, 2, 2); /* Цвет текста */
+    padding: 20px 20px; /* Внутренний отступ */
+    border: none; /* Убираем границу */
+    border-radius: 50px; /* Радиус скругления */
+    font-size: 46px; /* Размер шрифта */
+    cursor: pointer; /* Курсор в виде руки */
+    transition: background-color 0.3s; /* Анимация при наведении */
+    width: 200px;
+    height: 100px;
+}
+
+.rounded-button:hover {
+    background-color: #0056b3; /* Цвет при наведении */
+}
+.Register{
+   
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}

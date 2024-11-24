@@ -1,0 +1,70 @@
+.gradient {
+    font-size: 40px;
+    background: $gradient;
+    background-clip: text;
+    color: transparent;
+    
+}
+.info{
+width: 1279px;
+height: 701px;
+top: 113px;
+left: 136px;
+gap: 0px;
+border-radius: 5px 0px 0px 5px;
+opacity: 0px;
+padding: 10px;
+
+}
+.face{
+    width: 450px;
+    height: 500px;
+    top: 50px;
+    margin-left:  1000px;
+
+}
+.placeholder{
+    width: 456px;
+   height: 73px;
+   background-color:  #052D56;
+   position: relative;
+   top: -400px;
+}
+.button{
+    width: 200px;
+    height: 73px;
+    font-family: Manrope;
+    background: #FF4820;
+    color: white;
+    position: relative;
+    top: -400px;
+    
+
+   };
+   .message{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    text-underline-position: from-font;
+    color: white;
+    position: relative;
+    top: -350px;
+    left: 200px
+    };
+    
+    .images{
+        position: absolute;
+        margin-top: -280px;
+        left: 150px;
+        transform: translateX(-150px);
+        padding: 10px;
+    }
+    .image{
+        position: absolute;
+        margin-top: -80px;
+        left:  350px;
+        display: flex;
+        gap: 40px;
+            }
+

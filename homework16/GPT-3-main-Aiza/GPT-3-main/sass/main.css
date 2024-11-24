@@ -1,0 +1,495 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #040C18;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1176px;
+  width: 100%;
+}
+
+.gradient {
+  font-size: 40px;
+  background: linear-gradient(90deg, #AE67FA, rgba(255, 68, 153, 0.5333333333));
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 768px) {
+  .info {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+.text {
+  font-size: 14px;
+}
+
+.text2 {
+  font-size: 14px;
+}
+
+.fomen {
+  font-size: 12px;
+}
+
+.End {
+  font-size: 12px;
+}
+
+@media (max-width: 480px) {
+  .info {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+.text {
+  font-size: 12px;
+}
+
+.text2 {
+  font-size: 12px;
+}
+
+.fomen {
+  font-size: 12px;
+}
+
+.End {
+  font-size: 10px;
+  padding: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+@media (max-width: 900px) {
+  .nav {
+    padding: 20px 10px;
+  }
+}
+.nav .menu {
+  display: flex;
+  gap: 34px;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .nav .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    background-color: #042C54;
+    padding: 25px;
+  }
+}
+.nav .buttons {
+  display: flex;
+  gap: 26px;
+}
+.nav .buttons .buttons-sign-in {
+  font-size: 18px;
+}
+.nav .buttons .buttons-sign-up {
+  background-color: #FF4820;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  padding: 16px 40px;
+}
+.nav .hamburger-menu {
+  display: none;
+}
+@media (max-width: 900px) {
+  .nav .hamburger-menu {
+    display: block;
+  }
+}
+.nav .hamburger-menu img {
+  width: 40px;
+}
+
+.show {
+  display: block !important;
+}
+
+.gradient {
+  font-size: 40px;
+  background: linear-gradient(90deg, #AE67FA, rgba(255, 68, 153, 0.5333333333));
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+.info {
+  width: 1279px;
+  height: 701px;
+  top: 113px;
+  left: 136px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 5px;
+  opacity: 0px;
+  padding: 10px;
+}
+
+.face {
+  width: 450px;
+  height: 500px;
+  top: 50px;
+  margin-left: 1000px;
+}
+
+.placeholder {
+  width: 456px;
+  height: 73px;
+  background-color: #052D56;
+  position: relative;
+  top: -400px;
+}
+
+.button {
+  width: 200px;
+  height: 73px;
+  font-family: Manrope;
+  background: #FF4820;
+  color: white;
+  position: relative;
+  top: -400px;
+}
+
+.message {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  color: white;
+  position: relative;
+  top: -350px;
+  left: 200px;
+}
+
+.images {
+  position: absolute;
+  margin-top: -280px;
+  left: 150px;
+  transform: translateX(-150px);
+  padding: 10px;
+}
+
+.image {
+  position: absolute;
+  margin-top: -80px;
+  left: 350px;
+  display: flex;
+  gap: 40px;
+}
+
+.text {
+  width: 1176px;
+  height: 663px;
+  top: 1149px;
+  left: 135px;
+  background-color: rgb(2, 2, 61);
+  position: absolute;
+  left: 90px;
+  top: 800px;
+}
+
+.zagolovok {
+  color: white;
+  text-align: left;
+  font-size: 40px;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+
+.T1 {
+  color: rgb(110, 110, 235);
+  font-size: 16px;
+  text-align: left;
+  line-height: 30px;
+  width: 734px;
+  height: 92px;
+  position: absolute;
+  top: 110px;
+  left: 400px;
+}
+
+.zagolovok2 {
+  color: violet;
+  font-size: 54px;
+  text-align: left;
+  width: 474px;
+  height: 90px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.groups {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+
+.Ghat {
+  color: white;
+  text-align: left;
+}
+
+.T2 {
+  color: rgb(117, 117, 241);
+  font-size: 24px;
+  text-align: left;
+}
+
+.zagolovok3 {
+  color: white;
+  font-size: 34px;
+  text-align: left;
+}
+
+.zagolovok1 {
+  color: white;
+  text-align: left;
+  font-size: 34px;
+}
+
+.T3 {
+  color: rgb(110, 110, 231);
+  font-size: 24px;
+}
+
+.T4 {
+  color: rgb(120, 120, 231);
+  font-size: 24px;
+}
+
+.text2 {
+  width: 1154px;
+  height: 431px;
+  position: absolute;
+  top: 1590px;
+  left: 90px;
+  color: white;
+}
+
+.future {
+  width: 426px;
+  height: 180px;
+  color: #AE67FA;
+}
+
+.future2 {
+  width: 590px;
+  height: 428px;
+  position: absolute;
+  top: 10px;
+  left: 600px;
+}
+
+.textinfo1 {
+  width: 590px;
+  height: 92px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  gap: 20px;
+  text-align: center;
+  color: blue;
+}
+
+.textinfo1 {
+  width: 590px;
+  height: 92px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  gap: 20px;
+  text-align: center;
+  color: blue;
+}
+
+.textinfo1 {
+  width: 590px;
+  height: 92px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  gap: 20px;
+  text-align: center;
+  color: blue;
+}
+
+.textinfo1 {
+  width: 590px;
+  height: 92px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  gap: 20px;
+  text-align: center;
+  color: blue;
+}
+
+.textinfo1 {
+  width: 590px;
+  height: 92px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  gap: 20px;
+  text-align: left;
+  color: blue;
+}
+
+.Imp {
+  color: white;
+  position: absolute;
+  top: 5px;
+}
+
+.From {
+  position: absolute;
+  top: 60px;
+}
+
+.textinfo2 {
+  width: 590px;
+  height: 120px;
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  gap: 20px;
+  text-align: left;
+  color: blue;
+}
+
+.Become {
+  color: white;
+  position: absolute;
+  top: 0;
+}
+
+.Con {
+  position: absolute;
+  top: 60px;
+}
+
+.textinfo3 {
+  width: 590px;
+  height: 92px;
+  position: absolute;
+  top: 350px;
+  left: 10px;
+  gap: 20px;
+  text-align: left;
+  color: blue;
+}
+
+.Mes {
+  color: white;
+}
+
+.Led {
+  position: absolute;
+  top: 80px;
+}
+
+.fomen {
+  position: absolute;
+  top: 2200px;
+  left: 100px;
+}
+
+.fomeninfo {
+  color: rgb(92, 7, 92);
+  width: 500px;
+  height: 90px;
+  font-family: Manrope;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 45px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  position: absolute;
+  top: 120px;
+  left: 650px;
+}
+
+.fomeninfo2 {
+  color: white;
+  position: relative;
+  top: -250px;
+  left: 650px;
+  font-size: 26px;
+  width: 500px;
+  height: 70px;
+}
+
+.End {
+  width: 1000px;
+  height: 80px;
+  position: absolute;
+  top: 2900px;
+  left: 90px;
+  gap: 0px;
+  border-radius: 10.72px 0px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  text-align: center;
+}
+
+.rounded-button {
+  background-color: black; /* Цвет фона */
+  color: rgb(15, 2, 2); /* Цвет текста */
+  padding: 20px 20px; /* Внутренний отступ */
+  border: none; /* Убираем границу */
+  border-radius: 50px; /* Радиус скругления */
+  font-size: 46px; /* Размер шрифта */
+  cursor: pointer; /* Курсор в виде руки */
+  transition: background-color 0.3s; /* Анимация при наведении */
+  width: 200px;
+  height: 100px;
+}
+
+.rounded-button:hover {
+  background-color: #0056b3; /* Цвет при наведении */
+}
+
+.Register {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 45px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}/*# sourceMappingURL=main.css.map */
